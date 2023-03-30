@@ -109,3 +109,23 @@ body {
     margin-top: 40px;
     display: none;
 }
+
+.loader {
+    margin: 40px auto 0 auto;
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #ebfffc;
+    border-top: 6px solid rgb(0, 0, 0, 0);
+    border-radius: 100%;
+    animation: spin 1s infinite linear;
+    display: none;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
